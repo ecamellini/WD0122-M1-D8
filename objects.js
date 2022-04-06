@@ -41,6 +41,10 @@ student.hasWebcam = false // We assign false to the property hasWebcam of the ob
 console.log("Student is now one year older and the webcam doesn't work anymore:")
 console.log(student)
 
+// Unlike arrays, where you acccess values by position, because they are a sequence of values..
+// In objects you access values of the properties by name, by key, because they are a set of key-value properties
+// If you say student.age, you will get the age, no matter if it's the last or the first property
+
 console.log("\n--------------ADD NEW OBJECT PROPERTIES-------------\n")
 // Our software now needs to change language based on the student location...
 // Do we have the student location in our model?
